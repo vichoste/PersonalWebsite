@@ -1,0 +1,21 @@
+{
+	"background_color": "#03173d",
+	"display": "standalone",
+	"icons": [
+		{
+			"sizes": "512x512",
+			"src": "icon-512.png",
+			"type": "image/png"
+		},
+		{
+			"sizes": "192x192",
+			"src": "icon-192.png",
+			"type": "image/png"
+		}
+	],
+	"name": "Vicho's Personal Website",
+	"prefer_related_applications": false,
+	"short_name": "Vichoste",
+	"start_url": "./",
+	"theme_color": "#03173d"
+}

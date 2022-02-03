@@ -1,0 +1,9 @@
+﻿@page "/"
+
+@using Microsoft.Extensions.Localization
+
+@inject IStringLocalizer<English> Localizer
+
+<PageTitle>@this.Localizer["Index"] - @this.Localizer["Vicente"]</PageTitle>
+
+<Paragraph>@this.Localizer["Index"]</Paragraph>

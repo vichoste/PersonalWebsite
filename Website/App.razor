@@ -1,0 +1,16 @@
+﻿@using Microsoft.Extensions.Localization
+
+@inject IStringLocalizer<English> Localizer
+
+<Router AppAssembly="@typeof(App).Assembly">
+	<Found Context="routeData">
+		<RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+		<FocusOnNavigate RouteData="@routeData" />
+	</Found>
+	<NotFound>
+		<PageTitle>@this.Localizer["NotFound"] - @this.Localizer["Vicente"]</PageTitle>
+		<LayoutView Layout="@typeof(MainLayout)">
+			<Paragraph>@this.Localizer["NotFoundCaption"]</Paragraph>
+		</LayoutView>
+	</NotFound>
+</Router>

@@ -1,0 +1,29 @@
+﻿@using Microsoft.Extensions.Localization
+
+@inject IStringLocalizer<English> Localizer
+@inject NavigationManager Navigation
+
+<Bar Breakpoint=Breakpoint.Desktop Background=Background.Dark ThemeContrast=ThemeContrast.Dark>
+	<BarToggler />
+	<BarBrand>
+		<BarItem>
+			<BarLink To="">
+				@this.Localizer["Vichoste"]
+			</BarLink>
+		</BarItem>
+	</BarBrand>
+	<BarMenu>
+		<BarEnd>
+			<BarItem>
+				<BarLink To="circuit">
+					@this.Localizer["Circuit"]
+				</BarLink>
+			</BarItem>
+			<BarItem>
+				<BarLink To="credits">
+					@this.Localizer["Credits"]
+				</BarLink>
+			</BarItem>
+		</BarEnd>
+	</BarMenu>
+</Bar>
