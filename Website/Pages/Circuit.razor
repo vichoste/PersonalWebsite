@@ -2,8 +2,25 @@
 
 @using Microsoft.Extensions.Localization
 
-@inject IStringLocalizer<English> Localizer
+@inject IStringLocalizer<Texts> Localizer
 
-<PageTitle>@this.Localizer["Circuit"] - @this.Localizer["Vicente"]</PageTitle>
-
-<Paragraph>@this.Localizer["Circuit"]</Paragraph>
+<div class="card pt-5 pb-5">
+	<div class="card-body text-center">
+		<h1 class="display-3">@this.Localizer["Circuit"]</h1>
+	</div>
+</div>
+<div class="container-fluid p-auto pt-5 pb-5">
+	<div class="card ms-auto me-auto">
+		<div class="row ms-auto me-auto">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-center">
+				<img src="./img/circuit.png">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-center">
+				<div class="card-body p-5">
+					<p class="card-text">@this.Localizer["ComingSoon"]</p>
+					<p class="card-text"><small class="text-muted">@this.Localizer["DrawingBy"] <a href="@this.Localizer["CircuitDrawingCreditLink"]">@this.Localizer["CircuitDrawingCreditArtist"]</a></small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

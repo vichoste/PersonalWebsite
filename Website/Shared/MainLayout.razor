@@ -1,17 +1,15 @@
 ﻿@using Microsoft.Extensions.Localization
 
+@inject IStringLocalizer<Texts> Localizer
+
 @inherits LayoutComponentBase
 
-@inject IStringLocalizer<English> Localizer
-
-<Layout>
-	<LayoutHeader>
-		<Header />
-	</LayoutHeader>
-	<LayoutContent Margin=Margin.Is1.OnMobile.Is3.OnTablet.Is5.OnDesktop>
-		@Body
-	</LayoutContent>
-	<LayoutFooter>
-		<Footer />
-	</LayoutFooter>
-</Layout>
+<header>
+	<Header />
+</header>
+<main>
+	@Body
+</main>
+<footer>
+	<Footer />
+</footer>

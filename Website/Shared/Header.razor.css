@@ -1,0 +1,17 @@
+﻿nav {
+	background: #9E3E63;
+	border-radius: 1rem 1rem 0 0;
+}
+
+nav-link {
+	background-color: #77dbff;
+	color: white;
+}
+
+.navbar-brand {
+	font-family: "Righteous";
+}
+
+.nav-link {
+	color: white !important;
+}

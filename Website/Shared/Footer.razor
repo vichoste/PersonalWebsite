@@ -1,1 +1,15 @@
-﻿<Paragraph>This is a footer lol</Paragraph>
+﻿@using Microsoft.Extensions.Localization
+
+@inject IStringLocalizer<Texts> Localizer
+
+<footer>
+	<div class="pt-auto pb-auto">
+		<a href="@this.Localizer["GitHub"]"><img src="./img/github.png"></a>
+		<a href="@this.Localizer["Instagram"]"><img src="./img/instagram.png"></a>
+		<a href="@this.Localizer["TikTok"]"><img src="./img/tiktok.png"></a>
+		<a href="@this.Localizer["Twitter"]"><img src="./img/twitter.png"></a>
+		<a href="@this.Localizer["YouTube"]"><img src="./img/youtube.png"></a>
+	</div>
+	<div class="briefs">
+	</div>
+</footer>

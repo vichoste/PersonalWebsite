@@ -1,0 +1,90 @@
+﻿html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #77dbff;
+	color: white;
+	font-family: "Baloo 2";
+	font-size: 150%;
+}
+
+@media only screen and (min-width: 576px) {
+	body {
+		margin: 0 4vw 0 4vw;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		margin: 0 8vw 0 8vw;
+	}
+}
+
+@media only screen and (min-width: 1080px) {
+	body {
+		margin: 0 12vw 0 12vw;
+	}
+}
+
+main {
+	background-color: #9EC1FF;
+	min-height: calc(80vh - 75px);
+}
+
+	main .row, main .container-fluid {
+		display: flex;
+		align-items: center;
+	}
+
+	main .container-fluid {
+		padding: 5vw;
+	}
+
+		main .card,
+		main .container-fluid .card {
+			background: #2447D3;
+			border-radius: 0;
+			width: 100%;
+		}
+
+			main .card img {
+				border: .25rem solid #FFD54B;
+				border-radius: 8rem;
+				background-color: #77dbff;
+				max-width: calc(256px + 10vw);
+			}
+
+		main .container-fluid .card {
+			border: 1rem #1477DF;
+			border-right-color: #FFD54B;
+			border-style: double solid double double;
+			border-radius: 50rem;
+		}
+
+			main .container-fluid .card,
+			main .container-fluid .card .card-header {
+				border-radius: 5rem;
+			}
+
+	main .card a {
+		text-decoration: none;
+		color: #FFD54B;
+	}
+
+		main .card a:hover {
+			color: #ffe282;
+			text-decoration: none;
+		}
+
+	main .text-muted {
+		color: gainsboro !important;
+	}
+
+	main .container-fluid {
+		flex-direction: column;
+	}
+
+.display-3 {
+	font-family: "Righteous";
+}

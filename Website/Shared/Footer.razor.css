@@ -1,0 +1,18 @@
+﻿footer div {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: #1477DF;
+}
+
+.briefs {
+	background: #2447D3;
+	border-style: none none none none;
+	border-radius: 0 0 50rem 50rem;
+	padding: 5rem 0 5rem 0;
+}
+
+footer img {
+	width: calc(64px - 1vw);
+}

@@ -1,29 +1,26 @@
 ﻿@using Microsoft.Extensions.Localization
 
-@inject IStringLocalizer<English> Localizer
+@inject IStringLocalizer<Texts> Localizer
 @inject NavigationManager Navigation
 
-<Bar Breakpoint=Breakpoint.Desktop Background=Background.Dark ThemeContrast=ThemeContrast.Dark>
-	<BarToggler />
-	<BarBrand>
-		<BarItem>
-			<BarLink To="">
-				@this.Localizer["Vichoste"]
-			</BarLink>
-		</BarItem>
-	</BarBrand>
-	<BarMenu>
-		<BarEnd>
-			<BarItem>
-				<BarLink To="circuit">
-					@this.Localizer["Circuit"]
-				</BarLink>
-			</BarItem>
-			<BarItem>
-				<BarLink To="credits">
-					@this.Localizer["Credits"]
-				</BarLink>
-			</BarItem>
-		</BarEnd>
-	</BarMenu>
-</Bar>
+<nav class="navbar navbar-expand-lg navbar-dark">
+	<div class="container-fluid ps-5 pe-5">
+		<a class="navbar-brand" href="">@this.Localizer["Vichoste"]</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse mb-2" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="">@this.Localizer["Index"]</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="circuit">@this.Localizer["Circuit"]</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="credits">@this.Localizer["Credits"]</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

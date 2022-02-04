@@ -117,14 +117,65 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Azure" xml:space="preserve">
+    <value>Microsoft Azure</value>
+  </data>
+  <data name="AzureLink" xml:space="preserve">
+    <value>https://azure.microsoft.com/en-us/</value>
+  </data>
+  <data name="BlazorWebAssembly" xml:space="preserve">
+    <value>Blazor WebAssembly</value>
+  </data>
+  <data name="BlazorWebAssemblyLink" xml:space="preserve">
+    <value>https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor</value>
+  </data>
+  <data name="Bootstrap" xml:space="preserve">
+    <value>Bootstrap</value>
+  </data>
+  <data name="BootstrapLink" xml:space="preserve">
+    <value>https://getbootstrap.com</value>
+  </data>
   <data name="Circuit" xml:space="preserve">
     <value>Circuit</value>
+  </data>
+  <data name="CircuitDrawingCreditArtist" xml:space="preserve">
+    <value>Reffi</value>
+  </data>
+  <data name="CircuitDrawingCreditLink" xml:space="preserve">
+    <value>https://twitter.com/ReffiComics</value>
+  </data>
+  <data name="ComingSoon" xml:space="preserve">
+    <value>Coming soon...</value>
   </data>
   <data name="Credits" xml:space="preserve">
     <value>Credits</value>
   </data>
+  <data name="DrawingBy" xml:space="preserve">
+    <value>Drawing by:</value>
+  </data>
+  <data name="FrameworkCredits" xml:space="preserve">
+    <value>Site hosting, frameworks and libraries</value>
+  </data>
+  <data name="GitHub" xml:space="preserve">
+    <value>https://github.com/vichoste</value>
+  </data>
+  <data name="GoogleFonts" xml:space="preserve">
+    <value>Google Fonts</value>
+  </data>
+  <data name="GoogleFontsLink" xml:space="preserve">
+    <value>https://fonts.google.com</value>
+  </data>
   <data name="Index" xml:space="preserve">
     <value>Index</value>
+  </data>
+  <data name="IndexCardSubtitle" xml:space="preserve">
+    <value>Welcome to my website! Here you can see my creations, achievments and my portfolio!</value>
+  </data>
+  <data name="IndexCardTitle" xml:space="preserve">
+    <value>Hi! I'm Vicente Calderón :D</value>
+  </data>
+  <data name="Instagram" xml:space="preserve">
+    <value>https://www.instagram.com/vichoste_tcb</value>
   </data>
   <data name="NotFound" xml:space="preserve">
     <value>Not Found</value>
@@ -132,13 +183,22 @@
   <data name="NotFoundCaption" xml:space="preserve">
     <value>It seems it's empty in here...</value>
   </data>
+  <data name="Personal" xml:space="preserve">
+    <value>Vicente's Personal Website</value>
+  </data>
+  <data name="TikTok" xml:space="preserve">
+    <value>https://www.tiktok.com/@vichoste</value>
+  </data>
+  <data name="Twitter" xml:space="preserve">
+    <value>https://twitter.com/vichoste</value>
+  </data>
   <data name="Vicente" xml:space="preserve">
     <value>Vicente Calderón</value>
   </data>
   <data name="Vichoste" xml:space="preserve">
     <value>Vichoste</value>
   </data>
-  <data name="Welcome" xml:space="preserve">
-    <value>Welcome</value>
+  <data name="YouTube" xml:space="preserve">
+    <value>https://www.youtube.com/user/vichoste</value>
   </data>
 </root>
