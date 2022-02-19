@@ -139,10 +139,10 @@
     <value>Circuit</value>
   </data>
   <data name="CircuitDrawingCreditArtist" xml:space="preserve">
-    <value>Reffi</value>
+    <value>Emqsart</value>
   </data>
   <data name="CircuitDrawingCreditLink" xml:space="preserve">
-    <value>https://twitter.com/ReffiComics</value>
+    <value>https://emqsart.carrd.co</value>
   </data>
   <data name="ComingSoon" xml:space="preserve">
     <value>Próximamente...</value>
@@ -184,7 +184,7 @@
     <value>Parece que aquí no hay nada...</value>
   </data>
   <data name="Personal" xml:space="preserve">
-    <value>Sitio Web Personal de Vicente</value>
+    <value>Sitio Web Personal del Vicho</value>
   </data>
   <data name="TikTok" xml:space="preserve">
     <value>https://www.tiktok.com/@vichoste</value>
