@@ -124,7 +124,7 @@ namespace Website.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Emqsart.
+        ///   Looks up a localized string similar to ToonedToons.
         /// </summary>
         public static string CircuitDrawingCreditArtist {
             get {
@@ -133,7 +133,7 @@ namespace Website.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://emqsart.carrd.co.
+        ///   Looks up a localized string similar to https://twitter.com/toonedtoons.
         /// </summary>
         public static string CircuitDrawingCreditLink {
             get {
