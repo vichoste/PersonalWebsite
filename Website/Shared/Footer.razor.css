@@ -11,6 +11,9 @@
 	border-style: none none none none;
 	border-radius: 0 0 50rem 50rem;
 	padding: 5rem 0 5rem 0;
+	place-content: center;
+	display: flex;
+	flex-direction: column;
 }
 
 footer img {
